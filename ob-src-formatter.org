@@ -6,7 +6,7 @@
 #+property: header-args:sh :results raw drawer
 #+todo: TODO DOING | DONE
 
-* Table of contents                                                     :TOC:
+* Contents                                                              :TOC:
 - [[#motivation][Motivation]]
 - [[#design][Design]]
   - [[#wishlist][Wishlist]]
@@ -168,9 +168,9 @@ There are no released versions yet
 |------------+---------+-----------+---------------|
 | Language   | Runtime | Formatter | Emacs package |
 |------------+---------+-----------+---------------|
-| Python     | python3 | autopep8  | py-autopep8   |
-| Javascript | node    | prettier  | prettier-js   |
-| PHP        | php     | phpcbf    | emacs-phpcbf  |
+| Python     | [[https://www.python.org/downloads/][python]]  | [[https://github.com/hhatto/autopep8][autopep8]]  | [[https://github.com/paetzke/py-autopep8.el][py-autopep8]]   |
+| Javascript | [[https://nodejs.org/en/download/][nodejs]]  | [[https://prettier.io/prettier][prettier]]  | [[https://github.com/prettier/prettier-emacs][prettier-js]]   |
+| PHP        | [[http://php.net/downloads.php][php]]     | [[https://github.com/squizlabs/PHP_CodeSniffer][phpcbf]]    | [[https://github.com/nishimaki10/emacs-phpcbf][emacs-phpcbf]] |
 |------------+---------+-----------+---------------|
 
 ** TODO Install dependencies
@@ -179,6 +179,7 @@ There are no released versions yet
 
 #+begin_src text :tangle .gitignore
 .DS_Store
+LICENSE
 #+end_src
 
 * Tests
