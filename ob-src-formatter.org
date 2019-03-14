@@ -66,6 +66,7 @@ I will start with Python, which is my motivation for making this package in the 
 - https://emacs.stackexchange.com/questions/5850/how-to-auto-format-the-source-code-block-in-org-mode
 - https://emacs.stackexchange.com/questions/2483/referring-to-the-org-babel-src-block-name-from-within-the-script
 - https://gist.github.com/emacswatcher/acde36f8c9f4669fcb004d09247ca4e1
+- https://medium.com/3yourmind/auto-formatters-for-python-8925065f9505
 
 #+begin_src sh
 test 
@@ -155,6 +156,10 @@ There are no released versions yet
 *** 0.1.0
 
 - Prettify python source code blocks
+
+*** 0.2.0
+
+- Prettify javascript source code blocks
 
 *** 1.0.0
 
