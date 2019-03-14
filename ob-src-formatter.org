@@ -169,6 +169,16 @@ There are no released versions yet
 
 * Setup
 ** Dependencies
+*** emacs
+
+- use-package
+- py-autopep8
+- prettier-js
+- emacs-phpcbf
+- testing library
+- code coverage library
+
+*** Source formatting
 
 |------------+---------+-----------+---------------|
 | Language   | Runtime | Formatter | Emacs package |
@@ -179,6 +189,22 @@ There are no released versions yet
 |------------+---------+-----------+---------------|
 
 ** TODO Install dependencies
+
+#+begin_src emacs-lisp
+
+(use-package py-autopep8 :ensure t)
+
+(use-package prettier-js
+  :init  (add-hook 'js2-mode-hook 'prettier-js-mode)
+  :ensure t)
+
+(use-package emacs-phpcbf :ensure t)
+
+;; testing library
+;; code coverage library
+
+#+end_src
+
 ** TODO Build
 ** =.gitignore=
 
